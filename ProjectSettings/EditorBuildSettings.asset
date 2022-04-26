@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MainMenu2.unity
+    guid: 24f5d879e1421f04fbc9100b6c033ebd
+  - enabled: 0
+    path: Assets/MainMenu.unity
+    guid: f232d6fde4476b740b5ab3effaaccc0c
+  - enabled: 1
+    path: Assets/Scenes/topDown.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ShipPlatform-YoungRoboKomp.unity
+    guid: bbf9d1a18f95257449c10196f5484435
+  - enabled: 1
+    path: Assets/Scenes/CaveScene.unity
+    guid: 3068eef8113b4d841992c27cd7ce9c0a
+  - enabled: 1
+    path: Assets/Scenes/TropicalForest.unity
+    guid: 46a901999fb220f4da2637f5e54ca143
+  - enabled: 1
+    path: Assets/Scenes/SloopScene.unity
+    guid: bf6297851d15f804c882d1f49c478023
+  - enabled: 1
+    path: Assets/Isla de loco.unity
+    guid: 25faf0599839ae44a8aaf5be1410c7d4
+  - enabled: 1
+    path: Assets/Scenes/CaveIsland2.unity
+    guid: f06f210466fada54d9a752834ff33191
+  - enabled: 1
+    path: Assets/Scenes/MichaelsShip.unity
+    guid: 27c73087e8e8bee46add003f3a4ba118
+  - enabled: 1
+    path: Assets/Intro.unity
+    guid: 67f4681bc6a5ee24e933f2f99e123e78
+  - enabled: 1
+    path: Assets/Scenes/IACTEND.unity
+    guid: b090f29b851feb94bb80b827263a617b
+  - enabled: 1
+    path: Assets/DeathIsland.unity
+    guid: 9fbae2cd79853164cad1ec5310ecc2fb
+  - enabled: 1
+    path: Assets/Scenes/SkeletonsQueenShip.unity
+    guid: 617bdc732c73335419d06285241d2450
+  - enabled: 1
+    path: Assets/tutorialScene.unity
+    guid: 37469030e38798448a7badf47709597f
+  - enabled: 1
+    path: Assets/Scenes/ShipWrecIsland.unity
+    guid: c84bb4d043e699343a98bd710ae49637
+  - enabled: 1
+    path: Assets/Scenes/ShipCave.unity
+    guid: 519456ac19beedd4c9bdfb5c6c529f29
+  - enabled: 1
+    path: Assets/Scenes/IslaDePoco.unity
+    guid: 93f20bccd5a80ec4bb34aeb8e3d31a77
+  - enabled: 1
+    path: Assets/NewScenes/MaynardFort2.unity
+    guid: a55c534c76fea1343a2adec83b1aef5b
+  - enabled: 1
+    path: Assets/Scenes/OfficerMaynardShip.unity
+    guid: 01fc63ebc5ea46c45857f36e1b888f28
+  - enabled: 1
+    path: Assets/NewScenes/MaynardFort.unity
+    guid: 3a501dd84a1396f4e8afbd87d08cd217
+  - enabled: 1
+    path: Assets/NewScenes/RainIsland.unity
+    guid: cb214d5d560b7ac45aa28533bed34310
+  - enabled: 1
+    path: Assets/NewScenes/NewIsland.unity
+    guid: f155840f840fd7e4a92b7229abbad52c
+  - enabled: 1
+    path: Assets/NewScenes/FinalFight.unity
+    guid: 7e69016a762bcde4ea6f4ba687154465
+  - enabled: 1
+    path: Assets/NewScenes/AdmiralAlexanderFort.unity
+    guid: 258208c0175946940b76d717525f11f9
+  - enabled: 1
+    path: Assets/NewScenes/AdmiralAlexanderFort2.unity
+    guid: d3e293a8f778fc042b279e8ee02d4292
+  - enabled: 1
+    path: Assets/NewScenes/AdmiralAlexanderShip.unity
+    guid: dbf506317910c2244bc73e403e19025e
+  - enabled: 1
+    path: Assets/NewScenes/FreedomIsland.unity
+    guid: 11efecbe3c5b2d14abe38e2ed07ace64
+  - enabled: 1
+    path: Assets/Scenes/BoneIsland.unity
+    guid: 5d8ba6b4b81bf794ab5ca96c22711359
+  - enabled: 1
+    path: Assets/Scenes/IIACTEND.unity
+    guid: 2e2643eae7d39a54985bc14ea592a9f7
+  - enabled: 1
+    path: Assets/Scenes/IIIACTEND.unity
+    guid: da5eff8b9a8cc5547a9838c79838a65b
+  m_configObjects: {}

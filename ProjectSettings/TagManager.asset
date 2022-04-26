@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Door
+  - GoldenCrate
+  - TeaCrate
+  - Ground
+  - PlayerCrew
+  - Heal
+  - Wall
+  - MeleAttackRange
+  - CannonBall
+  - WheelPlatform
+  - Spikes
+  - Dart
+  - Island
+  - UIElement
+  - Water
+  - EnemyShip
+  - FireActivatorV2
+  - FireActivator
+  - EnemyCannonBall
+  - Horizont
+  - ThrowPlace
+  - Coin
+  - Rum
+  - Sugar
+  - RoyalNavyShip
+  - DiamondChest
+  - Keg
+  - BoomPlace
+  - CheckPoint
+  - GM
+  - MichaelsFleet
+  - MissionTag
+  - AmeliaFleet
+  - GaleonSprite
+  - Bullet
+  - BoxAds
+  - SkeletonQueenFleet
+  - ShipsRange
+  - LegendaryKeys
+  - Map
+  - Ult
+  - Last
+  - SceneTransition
+  - GunSlider
+  - Outpost
+  - RestartButton
+  - GoldenCoin
+  - Slot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Boss
+  - Enemy
+  - GunSkeleton
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Boss2
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - chest
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,59 @@
+<input type="radio" name="ciag" value="ciag arytmetyczny">Ciąg arytmetyczny<br>
+<input type="radio" name="ciag" value="ciag geometryczny">Ciąg geometryczny<br>
+<input type="text" id="a1"> Podaj pierwszy wyraz ciagu<br>
+<input type="text" id="a2"> Podaj drugi wyraz ciagu<br>
+<input type="button" onclick="ciagi()" value="wybierz ciag">
+<p id="wynik"></p>
+
+<script>
+    function ciagi()
+    {
+        let a1 =parseFloat(document.getElementById("a1").value);
+        let a2 =parseFloat(document.getElementById("a2").value);
+        var r = document.getElementsByName("ciag");
+        for(let i = 0;i < r.length; i++)
+        {
+            if(r[i].checked)
+            {
+              
+                document.getElementById("wynik").innerHTML = r[i].value;
+                document.getElementById("wynik").innerHTML += ": " + a1 + ", " + a2 + ", ";
+                if(r[i].value == "ciag arytmetyczny")
+                {
+                    arytmetyczny(a1,a2);
+                }
+                else if(r[i].value == "ciag geometryczny")
+                {
+                    geometryczny(a1,a2);
+                }
+             
+            }
+        }
+        console.log("nacisnieto przycisk");
+    }
+    function arytmetyczny(a1,a2)
+    {
+        let r = a2 - a1;
+        for(let i = 0; i < 8; i++)
+        {
+            a2 = a2 + r;
+            
+            document.getElementById("wynik").innerHTML += a2 + ", ";
+        }
+
+    }
+
+    function geometryczny(a1,a2)
+    {
+        let q = a2/a1;
+        for(let i = 0; i < 8; i++)
+        {
+            a2 = a2 * q;
+            
+            document.getElementById("wynik").innerHTML += a2 + ", ";
+        }
+
+    }
+
+
+</script>

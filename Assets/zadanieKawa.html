@@ -1,0 +1,45 @@
+Wybierz napój
+<select id="napoj">
+    <option id="kawa" value="10">Kawa</option>
+    <option id="Herbata" value="8">Herbata</option>
+</select><br>
+Wybierz dodatki
+Cukier<input type="checkbox" value="cukier" id="cukier"><br>
+Mleko<input type="checkbox" value="mleko" id="mleko"><br>
+Cytryna<input type="checkbox" value="cytryna" id="cytryna"><br>
+<input type="button" onClick="wypisz()" value ="wypisz"><br>
+<p id="paragraf"></p>
+<p id="paragraf2"></p>
+<script>
+    function wypisz()
+    {
+        var napoj = parseInt(document.getElementById("napoj").value);
+        if(napoj == 10)
+        {
+            var zamowienie = "Kawa";
+        }
+        else
+        {
+            var zamowienie = "Herbata";
+        }
+
+        if(document.getElementById("cukier").checked)
+        {
+            zamowienie = zamowienie +" cukier "; napoj+= 0.5;
+        }
+        
+        if(document.getElementById("mleko").checked)
+        {
+            zamowienie = zamowienie +" mleko "; 
+            napoj+= 0.5;
+        }
+
+        if(document.getElementById("cytryna").checked)
+        {
+            zamowienie = zamowienie +"cytryna "; 
+            napoj+= 0.5;
+        }   
+        document.getElementById("paragraf").innerHTML = "Zamowiles " + zamowienie + "Cena:" + napoj ;
+    }
+
+</script>
